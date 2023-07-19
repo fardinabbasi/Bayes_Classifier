@@ -1,7 +1,7 @@
 # Bayes Classifier
 Conducting **one-vs-all** classification on the '[penguins.csv](https://github.com/fardinabbasi/Bayes_Classifier/blob/main/penguins.csv)' dataset using both the **Naive Bayes classifier** implemented **from scratch** and the one provided by **Scikit-Learn's built-in** functions.
 
-In the Bayes classifier for L number of features, $N^L$ data points are required to determine the **decision boundary**, which can be both **costly** and **time-consuming**. On the contrary, **Naive Bayes** assumes that features are independent and **identically distributed (i.i.d)** to each other, thereby reducing the number of required data points to $N*L$. Although this approach may slightly reduce overall precision, it proves to be highly useful in scenarios where data gathering can be a challenging task.
+In the Bayes classifier for L number of features, $N^L$ data points are required to determine the **decision boundary**, which can be both **costly** and **time-consuming**. On the contrary, **Naive Bayes** assumes that features are independent and **identically distributed (i.i.d)** to each other, thereby reducing the number of required data points to $N\times L$. Although this approach may slightly reduce overall precision, it proves to be highly useful in scenarios where data gathering can be a challenging task.
 ### From Scratch
 | Result | Adelie vs. All | Gentoo vs. All | Chinstrap vs. All |
 | --- | --- | --- | --- |
