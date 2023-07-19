@@ -64,6 +64,7 @@ class NaiveBayes():
 		prob=(np.exp(-(x-mean)**2/(2*var))/np.sqrt(2*np.pi*var))
 		return prob
 ```
+With the given dataset, the penguins need to be classified into three species, namely Adelie, Gentoo, and Chinstrap. This task falls under **multi-class** classification, and the **one-vs-all** method is utilized to achieve the classification.
 | Result | Adelie vs. All | Gentoo vs. All | Chinstrap vs. All |
 | --- | --- | --- | --- |
 | Confusion Matrix | <img src="/readme_images/aa1.png"> | <img src="/readme_images/gg1.png"> | <img src="/readme_images/cc1.png"> |
