@@ -70,8 +70,11 @@ With the given dataset, the penguins need to be classified into three species, n
 | Confusion Matrix | <img src="/readme_images/aa1.png"> | <img src="/readme_images/gg1.png"> | <img src="/readme_images/cc1.png"> |
 | Classification Report | <img src="/readme_images/a1.jpg"> | <img src="/readme_images/g1.jpg"> | <img src="/readme_images/c1.jpg"> |
 
-
 ### Scikit-Learn
+In this section, the **Naive Bayes classifier** is implemented using the **Scikit-learn** library for classifying penguins into three species: Adelie, Gentoo, and Chinstrap. The **one-vs-all** method is employed to accomplish this task.
+```ruby
+from sklearn.naive_bayes import GaussianNB
+```
 | Result | Adelie vs. All | Gentoo vs. All | Chinstrap vs. All |
 | --- | --- | --- | --- |
 | Confusion Matrix | <img src="/readme_images/aa2.png"> | <img src="/readme_images/gg2.png"> | <img src="/readme_images/cc2.png"> |
