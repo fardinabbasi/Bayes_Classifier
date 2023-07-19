@@ -1,5 +1,5 @@
 # Bayes Classifier
-
+Conducting **one-vs-all** classification on the '[penguins.csv](https://github.com/fardinabbasi/Bayes_Classifier/blob/main/penguins.csv)' dataset using both the **Naive Bayes classifier** implemented **from scratch** and the one provided by **Scikit-Learn's built-in** functions.
 | Result | Adelie vs. All | Gentoo vs. All | Chinstrap vs. All |
 | --- | --- | --- | --- |
 | Confusion Matrix | <img src="/readme_images/aa1.png"> | <img src="/readme_images/gg1.png"> | <img src="/readme_images/cc1.png"> |
