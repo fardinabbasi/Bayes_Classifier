@@ -68,8 +68,8 @@ class NaiveBayes():
 With the given dataset, the penguins need to be classified into three species, namely Adelie, Gentoo, and Chinstrap. This task falls under **multi-class** classification, and the **one-vs-all** method is utilized to achieve the classification.
 | Result | Adelie vs. All | Gentoo vs. All | Chinstrap vs. All |
 | --- | --- | --- | --- |
-| Confusion Matrix | <img src="/readme_images/aa1.png"> | <img src="/readme_images/gg1.png"> | <img src="/readme_images/cc1.png"> |
-| Classification Report | <img src="/readme_images/a1.jpg"> | <img src="/readme_images/g1.jpg"> | <img src="/readme_images/c1.jpg"> |
+| Confusion Matrix | <img src="./doc/aa1.png"> | <img src="./doc/gg1.png"> | <img src="./doc/cc1.png"> |
+| Classification Report | <img src="./doc/a1.jpg"> | <img src="./doc/g1.jpg"> | <img src="./doc/c1.jpg"> |
 
 ### Scikit-Learn
 In this section, the **Naive Bayes classifier** is implemented using the **Scikit-learn** library for classifying penguins into three species: Adelie, Gentoo, and Chinstrap. The **one-vs-all** method is employed to accomplish this task.
@@ -78,6 +78,12 @@ from sklearn.naive_bayes import GaussianNB
 ```
 | Result | Adelie vs. All | Gentoo vs. All | Chinstrap vs. All |
 | --- | --- | --- | --- |
-| Confusion Matrix | <img src="/readme_images/aa2.png"> | <img src="/readme_images/gg2.png"> | <img src="/readme_images/cc2.png"> |
-| Classification Report | <img src="/readme_images/a2.jpg"> | <img src="/readme_images/g2.jpg"> | <img src="/readme_images/c2.jpg"> |
+| Confusion Matrix | <img src="./doc/aa2.png"> | <img src="./doc/gg2.png"> | <img src="./doc/cc2.png"> |
+| Classification Report | <img src="./doc/a2.jpg"> | <img src="./doc/g2.jpg"> | <img src="./doc/c2.jpg"> |
+
+## Course Description
+- **Course**: Machine Learning [ECE 501]
+- **Semester**: Spring 2023
+- **Institution:** [School of Electrical & Computer Engineering](https://ece.ut.ac.ir/en/), [College of Engineering](https://eng.ut.ac.ir/en), [University of Tehran](https://ut.ac.ir/en)
+- **Instructors:** Dr. A. Dehaqani, Dr. Tavassolipour
 
